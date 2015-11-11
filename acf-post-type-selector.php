@@ -31,6 +31,9 @@ class acf_field_post_type_selector_plugin
 		*/
 		
 		
+		// version 5+
+        	add_action('acf/include_fields', array($this, 'include_fields'));
+		
 		// version 4+
 		add_action('acf/register_fields', array($this, 'register_fields'));	
 
@@ -69,6 +72,17 @@ class acf_field_post_type_selector_plugin
 		include_once('post-type-selector-v4.php');
 	}
 	
+	/*
+	*  register_fields
+	*
+	*  @description: 
+	*  @since: 5.0
+	*  @created: 1/04/13
+	*/
+	function include_fields()
+	{
+		include_once('post-type-selector-v5.php');
+	}
 }
 
 new acf_field_post_type_selector_plugin();
