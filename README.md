@@ -1,9 +1,9 @@
 # Advanced Custom Fields: acf-post-type-selector Field
 
-* **Contributors:** [@timkinperry](https://github.com/timkinperry), [@shaunbent](https://github.com/shaunbent)
+* **Contributors:** [@timkinperry](https://github.com/timkinperry), [@shaunbent](https://github.com/shaunbent), [@pimschaaf](https://github.com/pimschaaf)
 * **Tags:** ACF, Post Type Selector
 * **Requires at least:** 3.4
-* **Tested up to:** 4.0.1
+* **Tested up to:** 4.3.1
 * **Stable tag:** trunk
 * **License:** GPLv2 or later
 * **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,8 +16,9 @@ Provides the option to select a single or multiple post types
 
 This add-on will work with:
 
-* version 4 and up
-* version 3 and bellow
+* version 5
+* version 4
+* version 3 and below
 
 ## Installation
 
